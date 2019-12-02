@@ -9,9 +9,9 @@ const Main = () => {
         <img id="login-logo" src="/GALACTICODE-logo_blue.png" />
         <div>
           <p id="intro">
-            Nova the alien is lost in space and needs your help! Explore new
+            Captain Code is lost in space and needs your help! Explore new
             planets to unlock JavaScript challenges, earning fuel to travel to
-            new planets and help Nova get home.
+            new planets and help Captain Code get home.
           </p>
           <div id="login-buttons">
             <a href="/auth/google">
