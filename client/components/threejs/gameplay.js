@@ -99,7 +99,7 @@ function checkCollision() {
       collisionResults[0].object.material.transparent = true;
       collisionResults[0].object.material.opacity = 0.4;
       console.log('collisionResults', collisionResults)
-      window.location.replace(`http://localhost:8080/challenge/${collisionResults[0].object.challengeId}`)
+      window.location.replace(`http://captaincode.herokuapp.com/challenge/${collisionResults[0].object.challengeId}`)
       // window.location.replace(`http://galacticode.herokuapp.com/challenge/${collisionResults[0].object.challengeId}`)
     }
   }
