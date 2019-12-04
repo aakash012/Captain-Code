@@ -16,7 +16,7 @@ const Main = () => {
           <div id="login-buttons">
             <a href="/auth/google">
               <button className="btn btn-login">
-                {<img src="btn_google_signin_light_normal_web.png" />}
+                {/* <img src="btn_google_signin_light_normal_web.png" /> */}
                 Login with Google
               </button>
             </a>
