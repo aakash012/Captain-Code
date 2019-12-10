@@ -11,8 +11,8 @@ router.post('/', async (req, res, next) => {
     })
 
     const { data } = await axios.post(
-      // 'http://localhost:8081/',
-      'https://galacticode-api.herokuapp.com/',
+      // 'http://localhost:8080/',
+      'https://captaincode-api.herokuapp.com/',
       {
         code: req.body.code,
         specs: challenge.specs

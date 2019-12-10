@@ -2,8 +2,6 @@ import * as THREE from 'three'
 import { THREEx } from './keyboardState'
 var keyboard = new THREEx.KeyboardState();
 
-
-
 var renderer, scene, camera, ground, alien;
 let completedColor = 0x8C04FF;
 let notCompleted = 0x07FEFF;
@@ -100,7 +98,7 @@ function checkCollision() {
       collisionResults[0].object.material.opacity = 0.4;
       console.log('collisionResults', collisionResults)
       window.location.replace(`http://captaincode.herokuapp.com/challenge/${collisionResults[0].object.challengeId}`)
-      // window.location.replace(`http://galacticode.herokuapp.com/challenge/${collisionResults[0].object.challengeId}`)
+      // window.location.replace(`http://localhost:8080/challenge/${collisionResults[0].object.challengeId}`)
     }
   }
 }
